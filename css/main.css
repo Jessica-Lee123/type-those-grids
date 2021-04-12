@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
+  margin: 1em;
 }
 
 *, *::before, *::after {
@@ -14,9 +15,12 @@ body {
 
 img {
   width: 100%;
+  align-self: center;
 }
 
 main {
+  font-family: Merriweather, serif;
+  font-style: italic;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
@@ -30,7 +34,16 @@ main {
 }
 
 .banner-text {
+  font-family: Merriweather, serif;
   grid-area: banner;
   color: #fff;
   padding: 1.5rem 1rem;
+}
+
+dd {
+  font-style: normal;
+}
+
+dt {
+  font-style: italic;
 }
