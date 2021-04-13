@@ -15,11 +15,23 @@ body {
 
 img {
   width: 100%;
-  align-self: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem;
 }
 
 main {
-  font-family: Merriweather, serif;
   font-style: italic;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -29,19 +41,35 @@ main {
   gap: .75rem;
 }
 
-.img-banner {
-  grid-area: banner;
-}
-
 .banner-text {
-  font-family: Merriweather, serif;
   grid-area: banner;
+  align-self: end;
   color: #fff;
   padding: 1.5rem 1rem;
 }
 
+.banner-text h2 {
+  margin-bottom: 0;
+}
+
+.banner-text p {
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
 dd {
-  font-style: normal;
+  margin-left: 1rem;
 }
 
 dt {
